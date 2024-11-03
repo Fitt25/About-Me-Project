@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=BioRhyme:wght@200..800&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: "Inter", sans-serif;
+  background: #ffffff;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.header {
+    height: 100vh;
+    background-image: url(images/Designer.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    border-bottom: 5px solid rgb(11, 87, 106);
+}
+
+.header-title {
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    color: #fff;
+    text-align: center;
+    margin-top: 3.2em;
+    margin-left: 0.5em;
+}
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 790px;
+    margin: 100px auto 50px;
+}
+
+.card {
+    width: 350px;
+    margin-bottom: 60px;
+    padding: 45px 50px 70px;
+    background-color: #fff;
+    box-shadow: 4px 4px 5px rgb(54, 138, 141);
+  }
+
+  .card-title {
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .card-image {
+    width: 100%;
+    margin-bottom: 25px;
+    object-fit: contain;
+  }
+
+.footer {
+    min-height: 200px;
+    background-color:  rgb(60, 126, 128);
+    border-top: 3px solid rgb(11, 87, 106);
+    display: flex;
+}
+
+.footer-author {
+    margin: auto;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
